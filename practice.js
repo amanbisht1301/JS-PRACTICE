@@ -7,12 +7,5 @@ let score = 20;
 score = 18;
 console.log(score);
 
-function example (){
-    var name  = "Aman Bisht";
-    console.log(name);
-}
 
-example();
 
-message = "Hero";
-console.log(message);
