@@ -1,4 +1,4 @@
-//Objects can store other objects within them, creating nested structures
+// Objects can store other objects within them, creating nested structures
 
 let student = {
   name: "Alice",
@@ -9,3 +9,4 @@ let student = {
   }
 };
 console.log(student.subjects.math);  // Output: A
+
