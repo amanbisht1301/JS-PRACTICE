@@ -1,3 +1,5 @@
+//The let keyword declares a variable with block scope, meaning it is only accessible within the block where it is defined (e.g., inside a {} block).
+
 function exampleLet() {
   let name = "John";
   if (true) {
@@ -8,3 +10,4 @@ function exampleLet() {
 }
 
 exampleLet();
+
