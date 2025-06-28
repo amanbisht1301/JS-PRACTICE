@@ -15,7 +15,7 @@ for (let i = 0; i < color.length; i++) {
 
 // Modern 
 let name1 = ["Aman","Arun","Sonu"];
-for (let i of name1){
+for (let i of name1){ //  i = item , name 1 = array 
     console.log(i);
 
 }

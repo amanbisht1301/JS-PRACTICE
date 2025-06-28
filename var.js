@@ -7,7 +7,7 @@
 function exampleVar() {
   var name = "John";
   if (true) {
-    var name = "Jane"; // same variable, function-scoped
+    var name = "Aman"; // same variable, function-scoped
     console.log(name); // Output: Jane
   }
   console.log(name); // Output: Jane
