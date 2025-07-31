@@ -1,10 +1,5 @@
-
-function latest()
-{
-    for (let i = 1; i <=5; i++){
-        console.log(i);
-    };
-
-
-
-setTimeout(latest,2000);
+for (let i = 1; i <= 5; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, i * 1000); // Delay increases with each loop
+}

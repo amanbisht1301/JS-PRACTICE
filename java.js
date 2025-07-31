@@ -152,7 +152,7 @@ setTimeout(function(){
     console.log(" Hello Aman ");
 },2000);
 
-function greet(name){
+function greet(){
     return console.log("Hello Aman Bisht");
 };
 
@@ -178,8 +178,11 @@ setTimeout((element) =>{
 
 let array = ["Login", "Signup", "Dashboard"] ;
 
-array.forEach(element => {
-    setTimeout(function(){
-        console.log(element);
-    },element * 10000 )
+array.forEach((element, index) => {
+  setTimeout(() => {
+    console.log(element);
+  }, index * 2000); // 0s, 2s, 4s
 });
+
+
+
